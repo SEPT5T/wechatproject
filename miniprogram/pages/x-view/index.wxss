@@ -1,0 +1,84 @@
+.contain{
+  display: block;
+}
+.item{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.row{
+  flex-direction: row;
+}
+.col{
+  flex-direction: column;
+}
+.item-left{
+  justify-content: flex-start;
+}
+.item-right{
+  justify-content: flex-end;
+}
+.item-center{
+  justify-content: center;
+}
+.item-right{
+  justify-content: flex-end;
+}
+.item-between{
+  justify-content: space-between;
+}
+.item-around{
+  justify-content: space-around;
+}
+.bg-white{
+  background-color: white;
+}
+.bg-base{
+  background-color: #f0f0f0;
+}
+.text-white{
+  color: white;
+}
+.text-info{
+  color: #8a8a8a;
+}
+.text-dange{
+  color: #F56C6C;
+}
+.text-warning{
+  color: #E6A23C;
+}
+.text-success{
+  color: #67C23A;
+}
+.text-black{
+  color: black;
+}
+.text-primary{
+  color: #409EFF;
+}
+.col-top{
+  align-items: flex-start;
+}
+.col-middle{
+  align-items: center;
+}
+.col-bottom{
+  align-items: flex-end;
+}
+.border-rect{
+  border-radius: 0px;
+}
+.border-round{
+  border-radius: 4px;
+}
+.border-circle{
+  border-radius: 50%;
+}
+.shadow{
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+}
+.act:active{
+  transform: scale(1.02);
+  opacity: 0.9;
+} 

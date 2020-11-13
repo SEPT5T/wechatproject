@@ -1,0 +1,26 @@
+/* miniprogram/pages/returnrecord/returnrecord.wxss */
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 15rpx 20rpx 15rpx;
+  
+}
+
+.list-content .pic {
+  flex: 1;
+  
+}
+
+.list-content image {
+  width: 330rpx;
+  height: 300rpx;
+  border: 2px solid rgb(42, 209, 56);
+  border-radius: 50rpx 
+ 
+}
+
+.pic {
+  margin: 10rpx;
+  position: relative;
+ 
+}

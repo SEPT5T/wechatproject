@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/photos/photos",
+    "pages/userinfor/userinfor",
+    "pages/x-add-img/x-add-img",
+    "pages/detail/detail",
+    "pages/findloss/findloss",
+    "pages/findmaster/findmaster",
+    "pages/uploadrecord/uploadrecord",
+    "pages/collectionrecord/collectionrecord",
+    "pages/returnrecord/returnrecord",
+    "pages/firstlogin/firstlogin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "失物招领",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/home2.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/photos/photos",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/loss2.png",
+        "iconPath": "images/loss.png",
+        "pagePath": "pages/findloss/findloss",
+        "text": "寻找失物"
+      },
+      {
+        "selectedIconPath": "images/findmaster2.png",
+        "iconPath": "images/findmaster.png",
+        "pagePath": "pages/findmaster/findmaster",
+        "text": "寻找失主"
+      },
+      {
+        "selectedIconPath": "images/user3.png",
+        "iconPath": "images/user2.png",
+        "pagePath": "pages/userinfor/userinfor",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

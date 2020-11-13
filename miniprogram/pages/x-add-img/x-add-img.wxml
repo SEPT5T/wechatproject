@@ -1,0 +1,33 @@
+<x-view bg="white">
+  <block wx:for="{{imageList}}" wx:key="{{index}}">
+    <x-image
+      src="{{item}}"
+      clear
+      bind:deleteImg="deleteImg"
+      size='{{720/4}}rpx'>
+    </x-image>
+  </block>
+  <x-image
+    wx:if="{{imageList.length<num}}"
+    plus
+    add_limit="{{num-imageList.length}}"
+    bind:addImg="addImg"
+    size='{{720/4}}rpx'>
+  </x-image>
+</x-view>
+<view class="divLine"></view>
+<textarea placeholder="写下物品描述及其位置" bindinput="getcomments" value="{{comments}}"></textarea>
+<view class="divLine"></view>
+<checkbox-group bindchange="choseway">
+  <checkbox class="check_box" checked="{{checked_id[0]}}" value="0">寻找失物</checkbox>
+  <checkbox checked="{{checked_id[1]}}" value="1">寻找失主</checkbox>
+</checkbox-group>
+<view>
+  <view>联系方式：</view>
+</view>
+<view>选择标签：</view>
+<view class="labelset">
+ <text class="{{viewnumber[0]==idx? 'labeltext':'labeltext_other'}}" bindtap="textselect" id='0'>电子产品</text>
+ <text class="{{viewnumber[1]==idx? 'labeltext':'labeltext_other'}}" bindtap="textselect" id='1'>手机</text>
+</view>
+<button type='primary' bindtap="uploadImage">上传</button>

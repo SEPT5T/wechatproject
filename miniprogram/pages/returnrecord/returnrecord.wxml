@@ -1,0 +1,11 @@
+<!--miniprogram/pages/returnrecord/returnrecord.wxml-->
+<view class="list-content">
+            <block wx:for="{{photo}}" wx:key="index" class="block_style">
+                <view class="pic" data-index="{{index}}" bindtap="todetail" bindlongpress="todetail">
+                    <image src="{{item.fileID}}" class="image" mode="aspectFill"></image>
+                    <view  class="imagetext" >
+                        <text >{{item.comments}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>

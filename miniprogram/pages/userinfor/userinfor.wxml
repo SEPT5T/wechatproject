@@ -1,0 +1,35 @@
+<!--miniprogram/pages/userinfor/userinfor.wxml-->
+<view class="divLineup"></view>
+<view class="userinfo_style">
+<image class="user_img" src="{{userimg}}"></image>
+<view>
+  <view class="username_style">{{username}}</view>
+  <view class="school_name">云南大学</view>
+</view>
+</view>
+<view class="divLineamong" ></view>
+<view class="divLineinterval" ></view>
+<view class="x_view" bindtap="tocollectionrecord">
+  <image class="icon" src="/images/record.png"></image>
+<view class="text_view"  >领取记录</view>
+<view class="icon2_view" >
+<image class="icon2" src="/images/右箭头.png"></image>
+</view>
+</view>
+<view class="divLineamong" ></view>
+<view class="x_view" bindtap="touploadrecord">
+  <image class="icon" src="/images/record.png"></image>
+<view class="text_view"  > 发布记录</view>
+<view class="icon2_view" >
+<image class="icon2" src="/images/右箭头.png"></image>
+</view>
+</view>
+<view class="divLineamong" ></view>
+<view class="x_view" bindtap="toreturnrecord">
+  <image class="icon" src="/images/record.png"></image>
+<view class="text_view" > 归还记录</view>
+<view class="icon2_view" >
+<image class="icon2" src="/images/右箭头.png"></image>
+</view>
+</view>
+

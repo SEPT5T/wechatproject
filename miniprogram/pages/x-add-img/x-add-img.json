@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "x-view": "../../pages/x-view/index",
+    "x-image": "../../pages/x-image/index"
+  }
+}

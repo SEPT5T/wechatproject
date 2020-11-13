@@ -1,0 +1,84 @@
+.images {
+    display: flex;
+}
+.image1{
+    display:flex;
+    justify-content: center;
+
+}
+.image1.imagez{
+width: 700rpx;
+height: 450rpx;
+}
+.list-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20rpx 15rpx 20rpx 15rpx;
+}
+
+.list-content .pic {
+    flex: 1;
+}
+
+.list-content image {
+    width: 330rpx;
+    height: 300rpx;
+    border: 2px solid rgb(42, 209, 56);
+    border-radius: 50rpx;
+}
+
+.pic {
+    margin: 10rpx;
+    position: relative;
+}
+
+.button {
+    min-width: 310px;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+
+.tips {
+    text-align: center;
+    color: #666666;
+    min-width: 310px;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+.img{
+    width: 750 rpx;
+    height: 350rpx;
+    display: flex;  
+    justify-content: center;  
+   }
+
+.imagetext {
+    text-align: center;
+    width: 330rpx;
+    background: rgb(0, 0, 0,0.05);
+    display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:1; 
+    text-overflow:ellipsis;
+    border-radius: 20rpx;
+  }  
+
+.swiper{
+    width: 750rpx;
+    height: 400rpx;
+}
+
+.block_style{
+    margin: 20rpx;
+    background-color: khaki;
+}
+
+.swiper_center{
+    width: 750rpx;
+    height: 400rpx;
+    display: flex;
+    align-items: center;
+}

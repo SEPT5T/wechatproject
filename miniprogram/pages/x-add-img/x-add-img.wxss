@@ -1,0 +1,37 @@
+/* components/aydk_add_img/aydk_add_img.wxss */
+.check_box{
+margin-right: 100px;
+margin-bottom: 20px;
+margin-left: 50px;
+margin-top: 10px;
+}
+.check_box_thing{
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  }
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+ }
+ .labeltext {
+   margin: 10px;
+  text-align: center;
+  width: 150rpx;
+  background: rgb(240, 240, 237);
+}  
+.labelset{
+  display: flex;
+  flex-direction: row;
+}
+.labeltext_other {
+  margin: 10px;
+ text-align: center;
+ width: 150rpx;
+ background: rgb(156, 156, 156);
+}  
+
+
+ 

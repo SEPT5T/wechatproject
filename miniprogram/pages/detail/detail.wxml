@@ -1,0 +1,22 @@
+<swiper autoplay="true" circular='true' indicator-dots='true' class="swiper">
+ <swiper-item wx:for="{{img}}">
+   <view class='img' >
+  <image src='{{item}}' mode='aspectFit'/>
+</view>
+ </swiper-item>
+ </swiper>
+ <view class="text_style">
+ <view>
+ <text class="img_style">{{imgtext}}</text>
+</view>
+</view>
+ <view class="address-list">
+<view class="image" wx:for="{{img}}">
+<image class="image" src="{{item}}" mode='aspectFit' data-index="{{index}}" bindtap="previewImage"></image>
+</view>
+</view>
+<view class="address-add">
+<button type='primary'  >联系发布者</button>
+<button type='primary' wx:if="{{img_way=='寻找失主'}}" bindtap="Confirmcollection">确认领取</button>
+<button type='primary' wx:if="{{img_way=='寻找失物'}}" bindtap="Confirmreturn">确认归还</button>
+</view>
